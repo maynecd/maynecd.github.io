@@ -1,5 +1,7 @@
 h1 {color: #F4DB7D;}
-h1 {font: "Breathing Personal Use";}
-h1 {background-color: #1A2238;}
+    h1 {font: 'Breathing Personal Use';}
+    h1 {background-color: #1A2238;}
+    h1 {text-align: center;}
 h2 {color: #FF6A3D;}
-h2 {font: sans-serif;}
+    h2 {font: sans-serif;}
+    h2 {text-align: center;}
