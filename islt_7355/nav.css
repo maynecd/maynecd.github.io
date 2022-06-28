@@ -5,6 +5,7 @@ ul li{
     border-radius: 5px;
     background-color: antiquewhite;
     display: inline-block;
+    float: right;
 border: none;
 margin: 15px auto;   
 padding: 20px;
