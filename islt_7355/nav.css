@@ -1,9 +1,6 @@
 ul li{
 display: inline-block;
-list-style-type: none;
 border: none;
 margin: 15px auto;   
 padding: 20px;
-background-color: #1A2238;
-color: #FFFFFF; 
- }
+}
