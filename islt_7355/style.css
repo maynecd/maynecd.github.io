@@ -15,3 +15,10 @@ header h2 {
 }
 p:first-of-type:first-letter {color: #FF6A3D;}
 P+P {text-indent: 30px;}
+.box-one {
+   width: 800px;
+   height: 500px;
+   margin: 10px;
+   padding: 25px;
+   border: none;
+}
