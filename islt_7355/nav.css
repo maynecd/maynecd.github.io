@@ -17,11 +17,11 @@ ul li{
 
 /*format and position the main navigation menu*/
 nav {
-    top: center;   
+    top: auto;   
 }
 nav ul {
     list-style-type: none;
-    margin: left;
+    margin: auto;
     padding: 1px 1px 1px 1px;
 }
 nav>ul li {
