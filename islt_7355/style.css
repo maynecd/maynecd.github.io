@@ -13,3 +13,11 @@ header h2 {
    background-color: #1A2238;
    min-height: 100%;
 }
+p:first-of-type:first-letter {color: #FF6A3D;}
+P+P {text-indent: 30px;}
+div {
+   width: 300px;
+   border: none;
+   padding: 50px;
+   margin: 20px;
+}
