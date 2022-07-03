@@ -1,13 +1,13 @@
 ul li{
     border-style: solid;
-    border-width: 2px 4px 2px 4px;
-    border-color: #F4DB7D;
+    border-color: #FF6a3D;
+    border-width: 4px 4px 4px 4px;
     background-color: #F4DB7D;
     display: inline-block;
     font-family: sans-serif;
-    border: none;
-    margin: auto;   
-    padding: 3px 3px 3px 3px;
+    border: solid;
+    margin: 0;   
+    padding: 1px 1px 1px 1px;
     list-style-type: none;
 }
 /*set the active page class to any <li> that has the class*/
@@ -17,12 +17,12 @@ ul li{
 
 /*format and position the main navigation menu*/
 nav {
-    top: auto;   
+    top: center;   
 }
 nav ul {
     list-style-type: none;
-    margin: auto;
-    padding: 3px 3px 3px 3px;
+    margin: left;
+    padding: 1px 1px 1px 1px;
 }
 nav>ul li {
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
@@ -35,11 +35,11 @@ nav a {
     text-decoration: none;
     display: inline-block;
     border-style: solid;
-    border-width: 2px 4px 2px 4px;
+    border-width: 4px 4px 4px 4px;
     border-color: #F4DB7D;
-    padding: 3px 3px 3px 3px;
+    padding: 1px 1px 1px 1px;
     width: 112px; /*this is important to set so our drop-down doesn't go across the page*/
-    margin: auto;
+    margin: 0;
 }
 
 /*format all navigation <a> elements*/
@@ -47,7 +47,7 @@ nav a:link{
     background-color: #F4DB7D;
 }
 nav a:hover, nav a:focus {
-    background-color: #F4DB7D;
+    background-color: #FF6a3D;
 }
 nav a:active{
     background-color: #F4DB7D;
