@@ -1,69 +1,44 @@
-ul li{
-    border-style: solid;
-    border-color: #FF6a3D;
-    border-width: 4px 4px 4px 4px;
-    background-color: #F4DB7D;
-    display: inline-block;
-    font-family: sans-serif;
-    border: solid;
-    margin: 0;   
-    padding: 1px 1px 1px 1px;
-    list-style-type: none;
-}
-/*set the active page class to any <li> that has the class*/
-.active a:link {
-    background-color: #F4DB7D;
-}
-
-/*format and position the main navigation menu*/
-nav {
-    top: auto;   
-}
-nav ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 1px 1px 1px 1px;
-}
-nav>ul li {
-    position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
-    text-align: center;
-    font-weight: bold;
-    color: #000000;
-    text-align: center;
-}
-nav a {
-    text-decoration: none;
-    display: inline-block;
-    border-style: solid;
-    border-width: 4px 4px 4px 4px;
-    border-color: #F4DB7D;
-    padding: 1px 1px 1px 1px;
-    width: 112px; /*this is important to set so our drop-down doesn't go across the page*/
-    margin: 0;
-}
-
-/*format all navigation <a> elements*/
-nav a:link{
-    background-color: #F4DB7D;
-}
-nav a:hover, nav a:focus {
-    background-color: #FF6a3D;
-}
-nav a:active{
-    background-color: #F4DB7D;
-}
-
-/*position sub-menu or drop-down*/
-nav ul>li ul {
-    position: absolute;
-    top: 100%;
-    display: none;
-}
-nav ul ul li {
-    float:none;
-}
-
-/*special hover to display the drop-down*/
-nav>ul>li:hover>ul{
+#main-nav a {
+    color: #FFFFFF;
+    background-color:#1A2238;
     display: block;
+    height: 40px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: right;
+    text-decoration: underline;
+    margin:0;
+    padding: .5rem;
 }
+#main-nav ul {
+    list-style-type: none;
+    display: flex;
+}
+#main-nav a:hover{
+    background-color:#FF6A3D;
+}
+#main-nav li {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+#main-nav li:hover .submenu > li {
+    display: block;
+    top:0px;
+}
+.submenu li{
+    display: none;
+    position: absolute;
+    top: 0px;
+}
+.submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+*{
+    border: 0px;
+    padding: 1px;
+    margin: 0;
+    }

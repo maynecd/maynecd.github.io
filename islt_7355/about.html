@@ -3,8 +3,8 @@
     Use: About Me Page
     Author: Christina Mayne
     School/Term: Univ. of Missouri, Summer 2022
-    Developed: July 2, 2022
-    Tested: July 2, 2022: Passed on Firefox and Chrome Browsers
+    Developed: July 5, 2022
+    Tested: July 5, 2022: Passed on Firefox and Chrome Browsers
 -->
 <!DOCTYPE html>
 <html lang="en-US">
@@ -15,36 +15,45 @@
         <link rel="stylesheet" href="nav.css">
 </head>
 <body>
-    <p style="font-family: sans-serif"></p>
-    <nav>
+    <nav id="main-nav">
         <ul>
-            <li class="active"><a href="index.html">HOME</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="about.html">About Me</a>
+            <li><a href="reflection.html">Reflection</a>
+            <li><a href="#contact">Contact</a>
             <li><a href="project.html">Projects</a>
-                <ul>
+                <ul class="submenu">
                     <li><a href="#">Link 1</a></li>
                     <li><a href="#">Link 2</a></li>
                     <li><a href="#">Link 3</a></li>
-                </ul>
-            <li><a href="reflection.html">Reflection</a>
-                <li><a href="#contact">Contact</a>
-            </ul>
+        </ul>
     </nav>
     <header>
-        <h1>About Me</h1>
-    </header>
-    <nav>
-    </nav>
-    <main>
-    <h3>A Little About Me:</h3>
-    <p>Hi! My name is Christina and I am from <em>Kansas City, Missouri</em>. I work at an <em>academic</em> hospital where I serve as the Emergency Medicine residency program manager. I am currently a graduate student in the Master of Science Learning Technologies & Design degree program at the University of Missouri-Columbia. My anticipated graduation date is May of 2023.</p>
-    <p>In May 2016, I completed the <strong>Bachelor of Health Sciences</strong> degree at the <em>University of Missouri-Columbia</em>. I chose to pursue the <strong>graduate</strong> degree program to better prepare myself to take on new opportunities within my career field and support my residency program’s commitment to leading-edge academic medicine and providing our residents outstanding, unparalleled educational opportunities.
-    <blockquote>“There is no end to education. It is not that you read a book, pass an exam and finish with education. The whole of film, from the moment you are born to the moment you die, 
-        is a process of learning” - Jiddu Krishnamurti</blockquote>
-        <p><a href="../islt_7355/CMayne_Resume_May_2022.pdf">Resume</a></p> 
-    </main> 
-    <footer> 
-        Created June 2022
-    </footer>
+    <h1>About Me</h1>
+</header>
+<main>
+    <p style="font-family: sans-serif"></p>
+    <div class="grid"></div>
+        <div><p>Hi! My name is Christina and I am from Kansas City, Missouri. I work at an 
+            academic hospital where I serve as the Emergency Medicine residency program 
+            manager. I am currently a graduate student in the Master of Science Learning 
+            Technologies & Design degree program at the University of Missouri-Columbia. 
+            My anticipated graduation date is May of 2023.
+            <p>In May 2016, I completed the Bachelor of Health Sciences degree at the 
+            University of Missouri-Columbia. I chose to pursue the graduate degree 
+            program to better prepare myself to take on new opportunities within my 
+            career field and support my residency program’s commitment to 
+            leading-edge academic medicine and providing our residents outstanding, 
+            unparalleled educational opportunities.</p></div> 
+        <div><p>“There is no end to education. It is not that you read a book, pass an exam and finish with education. The whole of film, from the moment you are born to the moment you die, 
+            is a process of learning” - Jiddu Krishnamurti</p></div>
+    <div class="resume">   
+        <p><a href="../islt_7355/CMayne_Resume_May_2022.pdf">Resume</a></p>
+        <P><a href="https://youtu.be/YDOux9s33Zc">Video Resume</a></P></div>
+</main> 
+<footer>
+    <p>Created June 2022</p>
+    <p>maynec@umsystem.edu</p>
+</footer>
 </body>
 </html>

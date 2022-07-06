@@ -5,6 +5,8 @@ header h1 {
    text-align: center;
    min-height: 100%;
    text-align: center;
+   border: solid;
+   border-color:#FF6A3D;
 }
 header h2 {
    color: #FF6A3D;
@@ -13,7 +15,6 @@ header h2 {
    background-color: #1A2238;
    min-height: 100%;
 }
-P+P {text-indent: 30px;}
 .box-one {
    width: 800px;
    height: 500px;
@@ -21,3 +22,29 @@ P+P {text-indent: 30px;}
    padding: 25px;
    border: none;
 }
+.grid{
+   display:grid;
+   grid-template-rows: 50%;
+   grid-row-gap: 5px;
+   
+}
+.grid > div{
+   background-color: #F4DB7D;
+   padding: 10px;
+   border: solid;
+   border-color:#1A2238;
+}
+footer {
+   background-color: #FF6A3D;
+   margin: 0px;
+   padding: 2px;
+   text-align: center;
+   border: solid;
+   border-color:#1A2238;
+}
+.resume {
+   text-align: center;
+   background-color: #F4DB7D
+   }
+p {line-height: 22px;
+margin-bottom: 10px}
