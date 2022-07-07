@@ -52,3 +52,12 @@ img {
    float: left;
    padding: 20px
 }
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+   .gfg-div {
+      width: 400px;
+      height: 200px;
+      background-color: #ffffff;
+      color:black;
+   }
+}
