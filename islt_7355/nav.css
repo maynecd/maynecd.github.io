@@ -1,4 +1,4 @@
-#main-nav a {
+#main-n a {
     color: #FFFFFF;
     background-color:#1A2238;
     display: block;
@@ -10,19 +10,19 @@
     margin:0;
     padding: .5rem;
 }
-#main-nav ul {
+#main-n ul {
     list-style-type: none;
     display: flex;
 }
-#main-nav a:hover{
+#main-n a:hover{
     background-color:#FF6A3D;
 }
-#main-nav li {
+#main-n li {
     width: 100%;
     text-align: center;
     position: relative;
 }
-#main-nav li:hover .submenu > li {
+#main-n li:hover .submenu > li {
     display: block;
     top:0px;
 }
