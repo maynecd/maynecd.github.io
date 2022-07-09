@@ -17,7 +17,7 @@ header h2 {
 }
 .grid{
    display:grid;
-   grid-template-rows: 50%;
+   grid-template-rows: 100px 1fr;
    grid-row-gap: 5px;
    
 }
@@ -30,22 +30,24 @@ header h2 {
 footer {
    background-color: #FF6A3D;
    margin: 0px;
-   padding: 2px;
+   padding: 6px;
    text-align: center;
    border: solid;
    border-color:#1A2238;
 }
 .resume {
    text-align: center;
-   background-color: #F4DB7D
+   background-color: #F4DB7D;
+   border-color: black;
+   border: solid;
    }
-p {line-height: 22px;
-margin-bottom: 10px}
+p {line-height: 40px;
+margin-bottom: 5px}
 img {
    float: left;
    padding: 20px
 }
-@media screen and (max-device-width: 640px)
+@media screen and (max-width: 768px)
 and (orientation: landscape) {
    .gfg-div {
       width: 400px;
