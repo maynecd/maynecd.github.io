@@ -2,8 +2,7 @@
     color: #FFFFFF;
     background-color:#1A2238;
     display: block;
-    height: 30px;
-    font-weight: bold;
+    height: 20px;
     align-items: center;
     justify-content: center;
     text-decoration: underline;
@@ -35,7 +34,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 100%;
+    width: 120%;
 }
 *{
     border: 0px;
@@ -50,9 +49,10 @@
 }
   
   /* (B) HORIZONTAL MENU ITEMS */
-li {display: inline;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
+li {
+  text-align: left;
+  padding: 0;
+  margin: 25px;
 }
 #hamitems { display: flex; }
 #hamitems a {

@@ -1,3 +1,4 @@
+
 header h1 {
    color: #F4DB7D;
    font-family: 'Breathing Personal Use', sans-serif;
@@ -9,11 +10,14 @@ header h1 {
    border-color:#FF6A3D;
 }
 header h2 {
-   color: #FF6A3D;
+   color: #FFFFFF;
    font-family: sans-serif;
    text-align: center;
    background-color: #1A2238;
    min-height: 100%;
+   padding: 10px;
+   border: solid;
+   border-color:#000000;
 }
 .grid{
    display:grid;
@@ -25,7 +29,7 @@ header h2 {
    background-color: #F4DB7D;
    padding: 10px;
    border: solid;
-   border-color:#1A2238;
+   border-color:#FF6A3D;
 }
 footer {
    background-color: #FF6A3D;
@@ -41,8 +45,6 @@ footer {
    border-color: black;
    border: solid;
    }
-p {line-height: 40px;
-margin-bottom: 5px}
 img {
    float: left;
    padding: 20px
@@ -55,4 +57,15 @@ and (orientation: landscape) {
       background-color: #ffffff;
       color:black;
    }
+}
+/*apply to all four sides*/
+body {margin:15px;padding:0px}
+
+ul {
+   list-style-type: disc;
+   margin: 0px;
+   padding: 0px
+}
+P {
+   line-height: 1.5;
 }
