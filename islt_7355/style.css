@@ -1,4 +1,7 @@
-
+@font-face {
+   font-family: LibreBaskerville;
+   src: url("/islt_7355/LibreBaskerville-Regular.ttf");
+}
 header h1 {
    color: #F4DB7D;
    font-family: 'Breathing Personal Use', sans-serif;
@@ -11,13 +14,13 @@ header h1 {
 }
 header h2 {
    color: #FFFFFF;
-   font-family: sans-serif;
    text-align: center;
    background-color: #1A2238;
    min-height: 100%;
    padding: 10px;
    border: solid;
    border-color:#000000;
+   font-family: 'Dancing Script', cursive;
 }
 .grid{
    display:grid;
