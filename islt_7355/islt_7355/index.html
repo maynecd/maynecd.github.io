@@ -3,34 +3,68 @@
     Use: Website Landing Page
     Author: Christina Mayne
     School/Term: Univ. of Missouri, Summer 2022
-    Developed: June 14, 2022
-    Tested: June 14, 2022: Passed on Firefox and Chrome Browsers
+    Developed: July 2, 2022
+    Tested: July 2, 2022: Passed on Firefox and Chrome Browsers
 -->
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-               <meta charset="utf-8">
-               <title>Home Page</title>
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+            <p style="font-family: sans-serif"></p>
+            <nav id="hamnav">
+                <label for="hamburger">&#9776;</label>
+                <input type="checkbox" id="hamburger"/>
+                <div class="dropdown" id="hamitems">
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a>
+                        <li><a href="reflection.html">Reflection</a>
+                        <li><a href="#contact">Contact</a>
+                        <li><a href="project.html">Projects</a>
+                            <ul class="submenu">
+                                <li><a href="Project1">Project 1</a></li>
+                                <li><a href="Project2">Project 2</a></li>
+                                <li><a href="Project3">Project 3</a></li>
+                </ul>
+            </ul>
+                </div>
+        </nav> 
     <header>
-        <h1>Christina Mayne's Portfolio Website</h1>
+        <h1>Christina Mayne's</h1> 
+        <h2>Portfolio Website</h2>
     </header>
     <nav>
     </nav>
     <main>
         <p>Welcome to Christina Mayne’s portfolio website. It is my pleasure to demonstrate and share part of my journey in completing the Master of Science Learning Technologies and Design degree program. 
-        The purpose of this website is to showcase my academic accomplishments and projects during the course of the degree program as a means to establish professional connections and secure future opportunities for career advancement.</pr>  
+        The purpose of this website is to showcase my academic accomplishments and projects during the course of the degree program as a means to establish professional connections and secure future opportunities for career advancement.
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
         <p>The goal of this website is to showcase my academic journey per the specifications listed for this class. This website will serve as the initial building blocks for the program portfolio that is required prior to graduation.</p> 
+        <hr>
+        <hr>
+        <hr>
         <p><h4>The objectives for this website are as follows:</h4>
-            <p>1.	Introduce myself</p>
-            <p>2.	Provide an overview of my experience and display my projects</p>
-            <p>3.	Demonstrate mastery of the competencies outlined in the degree program</p>
-            <p>4.	Share my perspective through reflection</p>
-        </p>
+        <ol>
+        	<li>Introduce Myself</li>
+        	<li>Provide an overview of my experience and display my projects</li>
+            <li>Demonstrate mastery of the competencies outlined in the degree program</li>
+            <li>Share my perspective through reflection</li>
+        </ol>
     </main> 
     <footer> 
         <p>Created June 2022</p>
+        <p>maynec@umsystem.edu</p>
     </footer>
 </body>
 </html>
