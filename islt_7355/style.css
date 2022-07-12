@@ -79,3 +79,30 @@ div {
    line-height: 1.5;
 }
 blockquote {font-family: 'Shadows Into Light', cursive;}
+/* override styles when printing */
+@media print {
+   body {
+      margin: 1in 1in 1in 1in;
+      color: black;
+      background-color: white;
+      font-family: serif;
+   }
+}
+/* print.css */
+header, nav, .submenu {
+   display: none;
+}
+/* print.css */
+* {
+   background-image: none !important;
+ }
+ 
+ img, svg {
+   display: none !important;
+ }
+ 
+ img.print, svg.print {
+   display: block;
+   max-width: 100%;
+ }
+ 
