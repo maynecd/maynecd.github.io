@@ -89,7 +89,7 @@ blockquote {font-family: 'Shadows Into Light', cursive;}
    }
 }
 /* print.css */
-header, nav, .submenu {
+nav, .submenu {
    display: none;
 }
 /* print.css */
