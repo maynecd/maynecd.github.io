@@ -1,6 +1,6 @@
 @font-face {
-   font-family: Handlee-Regular;
-   src: url("/islt_7355/Handlee-Regular.ttf");
+   font-family: Splash-Regular;
+   src: url('Shadows Into Light');
 }
 header h1 {
    color: #F4DB7D;
@@ -78,3 +78,4 @@ P {
 div {
    line-height: 1.5;
 }
+blockquote {font-family: 'Shadows Into Light', cursive;}
