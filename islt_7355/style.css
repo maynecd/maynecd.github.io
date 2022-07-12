@@ -1,6 +1,6 @@
 @font-face {
-   font-family: LibreBaskerville;
-   src: url("/islt_7355/LibreBaskerville-Regular.ttf");
+   font-family: Handlee-Regular;
+   src: url("/islt_7355/Handlee-Regular.ttf");
 }
 header h1 {
    color: #F4DB7D;
@@ -20,7 +20,7 @@ header h2 {
    padding: 10px;
    border: solid;
    border-color:#000000;
-   font-family: 'Dancing Script', cursive;
+   font-family: 'Handlee-Regular', sans-serif;
 }
 .grid{
    display:grid;
