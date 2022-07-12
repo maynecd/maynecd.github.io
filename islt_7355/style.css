@@ -45,6 +45,8 @@ footer {
    background-color: #F4DB7D;
    border-color: black;
    border: solid;
+   padding: 25px;
+   top: 0px;
    }
 img {
    float: left;
