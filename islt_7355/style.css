@@ -79,3 +79,14 @@ div {
    line-height: 1.5;
 }
 blockquote {font-family: 'Shadows Into Light', cursive;}
+@media print {
+   #image,
+   #nav {
+      display: none !important;
+   }
+h2, p, h1, footer {font-family: Georgia, serif;}
+h2, p {color: black;}   
+@page {
+   margin: 1in;
+}
+}
