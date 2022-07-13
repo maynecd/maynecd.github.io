@@ -24,13 +24,13 @@ header h2 {
 }
 .grid{
    display:grid;
-   grid-template-rows: 100px 1fr;
-   grid-row-gap: 5px;
+   grid-template-rows: 100px;
+   grid-row-gap: 10px;
    line-height: 1.5;
 }
 .grid > div{
    background-color: #F4DB7D;
-   padding: 10px;
+   padding: 500px;
    border: solid;
    border-color:#FF6A3D;
    line-height: 1.5;
@@ -45,11 +45,9 @@ footer {
 }
 .resume {
    text-align: center;
-   background-color: #F4DB7D;
-   border-color: black;
-   border: solid;
-   padding: 25px;
+   padding: 0px;
    top: 0px;
+   font-size: 24pt;
    }
 #img {
    float: left;
@@ -115,8 +113,8 @@ footer {
    background-size: cover;
 }
 .pic{
-   width: 50px;
-   height: 50px;
+   width: 40px;
+   height: 40px;
 }
 .picbig{
    position: absolute;
@@ -127,3 +125,6 @@ footer {
 .pic:hover + .picbig{
    width:200px;
 }
+
+
+
