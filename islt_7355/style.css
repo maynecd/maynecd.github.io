@@ -104,5 +104,8 @@ body {
 #myheader {
    color: black;
    font-family:'Times New Roman', Times, serif;
+}
+@page {
+   margin: 1in;
 }  
 }
