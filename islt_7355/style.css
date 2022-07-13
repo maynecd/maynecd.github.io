@@ -107,6 +107,11 @@ body {
    margin: 1in;
 }  
 }
+@media print{
+   .noprint{
+      display:none;
+   }
+}
 footer {
    background-image: url(../islt_7355/Images/19860.jpg);
    background-repeat: no-repeat;
