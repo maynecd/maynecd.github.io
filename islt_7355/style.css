@@ -51,7 +51,7 @@ footer {
    padding: 25px;
    top: 0px;
    }
-img {
+#img {
    float: left;
    padding: 20px
 }
@@ -82,12 +82,27 @@ blockquote {font-family: 'Shadows Into Light', cursive;}
 @media print {
    #img,
    #hamnav,
-   #hamitems {
+   #hamitems,
+   .submenu,
+   .resume {
       display: none !important;
    }
-h2, p, h1, footer {font-family: Georgia, serif;}
-h2, p {color: black;}   
-@page {
-   margin: 1in;
+body {
+   font-family: Georgia, serif;}
 }
+/* override styles when printing */
+@media print {
+   @page {
+       margin-top: 0;
+       margin-bottom: 0;
+   }
+   body {
+       padding-top: 72px;
+       padding-bottom: 72px;
+       background-color: transparent;
+   }
+#myheader {
+   color: black;
+   font-family:'Times New Roman', Times, serif;
+}  
 }
