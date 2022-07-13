@@ -80,8 +80,9 @@ div {
 }
 blockquote {font-family: 'Shadows Into Light', cursive;}
 @media print {
-   #image,
-   #nav {
+   #img,
+   #hamnav,
+   #hamitems {
       display: none !important;
    }
 h2, p, h1, footer {font-family: Georgia, serif;}
