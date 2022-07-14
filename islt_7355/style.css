@@ -120,19 +120,11 @@ footer {
    background-repeat: no-repeat;
    background-size: cover;
 }
-.pic{
-   width: 40px;
-   height: 40px;
-}
-.picbig{
-   position: absolute;
-   width: 0px;
-   -webkit-transition: width 0.3s linear 0s;
-   transition: width 0.3s linear 0s; z-index:10;
-}
-.pic:hover + .picbig{
-   width:200px;
-}
-
+#email {
+   transition: 0.3s linear;}
+#email:hover {transform: scale(1.5);}
+#phone {
+   transition: 0.3s linear;}
+#phone:hover {transform: scale(1.5);}
 
 
