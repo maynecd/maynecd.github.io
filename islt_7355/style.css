@@ -127,4 +127,52 @@ footer {
    transition: 0.3s linear;}
 #phone:hover {transform: scale(1.5);}
 
-
+table th {
+   font-weight: bold;
+   padding: 4px 30px 4px 8px;
+   text-align: left;
+   background-color:#1A2238;
+   color: #FF6A3D
+}
+table td {
+   border: 1px solid black;
+   padding: 8px 10px;
+}
+tbody tr:nth-child(even) {
+   background-color: #F4DB7D;
+}
+tbody tr:nth-child(odd) {
+   background-color: #FF6A3D;
+}
+figure, figcaption {
+   margin:0px;
+   padding: 0;
+}
+figure {
+   border: 1px solid black;
+   width: 450px;
+   padding: 15px;
+}
+figcaption {
+   display: block;
+   font-weight: bold;
+   text-align: center;
+   font-size: 120%;
+   padding-bottom: .25em;
+}
+table {
+   border-collapse: collapse;
+   border: 1px solid black;
+   margin: 10px auto;
+}
+@media only screen and (max-width: 479px) {
+   th, td {display: block; }
+   thead { display: none; }
+   tr td:first-child {
+      color: white;
+      font-weight: bold;
+      font-size: 110%;
+      background-color: #1A2238;
+   }
+}
+tbody td {border-bottom-style: none; }
