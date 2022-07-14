@@ -24,16 +24,18 @@ header h2 {
 }
 .grid{
    display:grid;
-   grid-template-rows: 100px;
-   grid-row-gap: 10px;
+   grid-template-rows: 70px;
+   grid-row-gap: 25px;
    line-height: 1.5;
+   padding: 15px;
 }
 .grid > div{
    background-color: #F4DB7D;
-   padding: 500px;
+   padding: 200px;
    border: solid;
    border-color:#FF6A3D;
-   line-height: 1.5;
+   line-height: 1.0;
+   width: 300px;
 }
 footer {
    background-color: #FF6A3D;
@@ -49,9 +51,10 @@ footer {
    top: 0px;
    font-size: 24pt;
    }
-.img {
+#Christina {
    float: left;
    padding: 20px
+   
 }
 @media screen and (max-width: 768px)
 and (orientation: landscape) {
@@ -78,9 +81,9 @@ div {
 }
 blockquote {font-family: 'Shadows Into Light', cursive;}
 @media print {
-   #img,
    #hamnav,
    #hamitems,
+   #Christina,
    .submenu,
    .resume {
       display: none !important;
