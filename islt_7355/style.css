@@ -176,3 +176,38 @@ table {
    }
 }
 tbody td {border-bottom-style: none; }
+textarea { height: 5em; width: 25em; }
+input {
+   border-top-style: groove;
+   border-right-style: groove;
+   border-left-style: groove;
+   border-bottom-style: groove;
+   background-color: #F4DB7D;
+   outline-color: black;
+   width: 30%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border: 2px #1A2238;
+   border-radius: 4px;
+}
+textarea {
+   width: 40%;
+   height: 150px;
+   padding: 12px 20px;
+   box-sizing: border-box;
+   border: 2px solid black;
+   background-color: #F4DB7D;
+   border-radius: 4px;
+   background-color: #f8f8f8;
+   resize: none;
+ }
+::placeholder {color: red}
+input[type=reset] input[type=submit] {
+   background-color:#F4DB7D;
+   border: solid black;
+   padding: 15px 32px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+}

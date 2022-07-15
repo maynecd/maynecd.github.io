@@ -1,10 +1,10 @@
 <!--
-    Title: Home Page
-    Use: Website Landing Page
+    Title: Contact Page
+    Use: End User Contacts Me
     Author: Christina Mayne
     School/Term: Univ. of Missouri, Summer 2022
-    Developed: July 2, 2022
-    Tested: July 2, 2022: Passed on Firefox and Chrome Browsers
+    Developed: July 14, 2022
+    Tested: July 14, 2022: Passed on Firefox and Chrome Browsers
 -->
 <!DOCTYPE html>
 <html lang="en-US">
@@ -36,32 +36,34 @@
                 </div>
         </nav> 
     <header>
-        <h1>Christina Mayne's</h1> 
-        <h2>Portfolio Website</h2>
+        <h1>Contact Christina Mayne</h1> 
     </header>
-    <nav>
-    </nav>
-    <main>
-        <p>Welcome to Christina Mayne’s portfolio website. It is my pleasure to demonstrate and share part of my journey in completing the Master of Science Learning Technologies and Design degree program. 
-        The purpose of this website is to showcase my academic accomplishments and projects during the course of the degree program as a means to establish professional connections and secure future opportunities for career advancement.
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-        <p>The goal of this website is to showcase my academic journey per the specifications listed for this class. This website will serve as the initial building blocks for the program portfolio that is required prior to graduation.</p> 
-        <hr>
-        <hr>
-        <hr>
-        <p><h4>The objectives for this website are as follows:</h4>
-        <ol>
-        	<li>Introduce Myself</li>
-        	<li>Provide an overview of my experience and display my projects</li>
-            <li>Demonstrate mastery of the competencies outlined in the degree program</li>
-            <li>Share my perspective through reflection</li>
-        </ol>
-    </main> 
+<main>     
+<form action="mailto:maynec@umsystem.edu?Subject=Portfolio%20Website%20Contact" method="post" enctype="text/plain">
+        <p>Please enter the information requested below to contact me via email. Thank you in advance for your
+    message.</p>
+    <div>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" placeholder="First Name" autofocus required><br><br>
+    </div>
+    <div>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" placeholder="Last Name" required><br><br>
+    </div>
+    <div>
+        <label for="emailaddress">Email Address:</label>
+        <input type="email" id="emailaddress" placeholder="Email Address" required><br><br>
+    </div>
+    <div>
+        <label>Message:</label><br><br>
+        <textarea></textarea>    
+    </div>
+    <div class="controls">
+        <input type="Reset" value="Reset">
+        <input type="Submit" value="Submit">
+</div>
+</form>
+</main> 
     <footer>
         <img src="../islt_7355/icons8-mail-50.png" id="email" alt= "icon">Christina Mayne<a href="mailto:maynec@umsystem.edu"> maynec@umsystem.edu</a>   
         <img src="../islt_7355/icons8-phone-50.png" id="phone" alt="phone">1-888-888-8888    
