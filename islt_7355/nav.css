@@ -31,7 +31,7 @@
     top: 0px;
 }
 .submenu {
-    display: flex;
+    display: none;
     flex-direction: column;
     position: absolute;
     width: 120%;
@@ -75,6 +75,8 @@ li {
       display: block;
       width: 100%;
       border-top: 1px solid #1A2238;
+      padding: 0px 0px 0px 0px;
+      font-size: 8pt;
     }
    
     /* (B) SHOW HAMBURGER ICON */
